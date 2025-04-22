@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0nHMSPyZDCr45PUhRsycpeAumy8j_IIiYJA&s); */
+}
+.container{
+flex: 1;
+}
+
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    color: #222222;
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+}
+
+.f-info-social,.f-info-links{
+    width: 100%;
+    vertical-align: middle;
+}
+.f-info-social,.f-info-links,.f-info-brand{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-social i{
+    margin-right: 1.5rem;
+    font-size: 2rem;
+}
+.f-info-links a{
+    margin-right: 0.5rem;
+}
+
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    /* margin-top: 2rem; */
+}
+
+.card-img-top{
+    border-radius: 10px; 
+    width: 100% !important;
+    object-fit: cover;
+    box-shadow: 2rem solid black !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.listinglink{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+    /* box-shadow: solid black 2rem !important; */
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    box-shadow: solid black 2rem !important;
+}
+.btn-add{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* edit */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show page */
+.show-img{
+    /* height: 20rem !important;*/
+    width: 40rem !important; 
+    height: 55vh;
+}
+.btn-shadow{
+    box-shadow: 2rem solid black;   
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding: 0px !important;
+}
+.btn-green{
+    background-color: green !important;
+}
+.btn-red{
+    background-color: red !important;
+}
+.card-text{
+    line-height: 1.8rem;
+}
+#shadow {
+    box-shadow: 0 6px 10px black !important; /* Adds a shadow to the image */
+}
+
+/* map */
+#map { 
+    height: 500px;
+    width: 80vh;
+}
