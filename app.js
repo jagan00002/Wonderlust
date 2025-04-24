@@ -135,7 +135,7 @@ app.use("/",users)
 // if requiered route not entered correctly
 
 app.all("*",(req,res,next)=>{
-    next(new ExpressError(404,"page not found!!"))
+    next(new ExpressError(404,"page not found!"))
 })
 // middleware for custom handle error
 
